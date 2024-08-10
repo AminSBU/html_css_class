@@ -1,0 +1,42 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f4f4f4;  
+    margin: 20px;  
+}  
+
+ul {  
+    list-style-type: disc; /* Default bullet points */  
+    padding: 10px;  
+    background-color: #e7f3fe; /* Light blue background */  
+    border: 1px solid #b8e0f8; /* Soft border color */  
+    border-radius: 5px; /* Rounded corners */  
+    margin-bottom: 20px; /* Spacing between lists */  
+}  
+
+ul li {  
+    padding: 5px; /* Space between list items */  
+    color: #333; /* Dark text color */  
+}  
+
+ol {  
+    list-style-type: decimal; /* Default numbering */  
+    padding: 10px;  
+    background-color: #e9ffe9; /* Light green background */  
+    border: 1px solid #b0e0b0; /* Soft border color */  
+    border-radius: 5px; /* Rounded corners */  
+}  
+
+ol li {  
+    padding: 5px; /* Space between list items */  
+    color: #333; /* Dark text color */  
+}  
+
+/* Optional: Add hover effects */  
+ul li:hover, ol li:hover {  
+    background-color: #d1ebff; /* Light blue hover effect for unordered list */  
+    cursor: pointer; /* Change cursor to pointer */  
+}  
+
+ul li:hover {  
+    background-color: #d1f6d1; /* Light green hover effect for ordered list */  
+} 
