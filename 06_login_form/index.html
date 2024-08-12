@@ -7,9 +7,26 @@
 </head>
 <body>
     <form>
-        <h1></h1>
+        <h1>Login Form</h1>
         <label>username:</label>
         <input type="text" name="username">
+        <br>
+        <label>password:</label>
+        <input type="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+        <button type="button" onclick="clearButtonClick()">Clear</button>
+
+        <script>
+            function clearButtonClick()
+            {
+                const usernameInput = document.getElementsByName('username')[0];
+                usernameInput.value = '';
+
+                const passwordInput = document.getElementsByName('password')[0];
+                passwordInput.value = '';
+            }
+        </script>
     </form>
 </body>
 </html>
