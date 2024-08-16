@@ -1,29 +1,39 @@
-body{
-    height: 100%;
-    margin: 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid;
-    border-radius: 3%;
+html, body {  
+    height: 100%;  
+    margin: 0; /* Remove default margin */  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    border: 2px solid;  
+    border-radius: 3%;  
 }  
 
-.container{
-    text-align: center;
-}
+.container {  
+    display: flex;            /* Enable Flexbox */  
+    flex-direction: column;  /* Stack items vertically */  
+    align-items: center;     /* Center items horizontally */  
+    text-align: center;  
+}  
 
-h1{
-    text-align: center;
-}
+h1 {  
+    text-align: center;  
+}  
 
-label
-{
-    margin: 2px 3px;
-    margin-left: 10px;
-}
+label {  
+    margin: 2px 3px;  
+    margin-left: 10px;  
+}  
 
-input
-{
-    margin-bottom: 8px;
-    margin-right: 10px;
+input {  
+    margin-bottom: 8px;  
+    margin-right: 10px;  
+}  
+
+button[type="submit"] {  
+    margin-bottom: 10px;  
+    width: 100px; /* Set button width */  
+}  
+
+button[type="button"] {  
+    margin-bottom: 10px;  
 }
